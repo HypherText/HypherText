@@ -3,7 +3,7 @@
   "description": "PHP for the modern man",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "autoload": {
     "psr-4": {
       "HypherText\\": "src/"
@@ -15,15 +15,8 @@
       "email": "malte.kluft@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../style"
-    }
-  ],
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.95",
-    "hyphertext/style": "^1.0",
-    "composer": "*"
+    "hyphertext/style": "^0.1",
   }
 }
