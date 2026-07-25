@@ -1,0 +1,12 @@
+{
+  "languages": {
+    "PHP": {
+      "formatter": {
+        "external": {
+          "command": "php-cs-fixer",
+          "arguments": ["fix", "--config=.php-cs-fixer.dist.php"],
+        },
+      },
+    },
+  },
+}

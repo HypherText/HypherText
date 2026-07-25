@@ -1,0 +1,29 @@
+{
+  "name": "hyphertext/hyphertext",
+  "description": "PHP for the modern man",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "HypherText\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mafrans",
+      "email": "malte.kluft@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../style"
+    }
+  ],
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.95",
+    "hyphertext/style": "^1.0",
+    "composer": "*"
+  }
+}
