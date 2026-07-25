@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e63c32f9ee4214c20d9b02877fd1ae7d",
+    "content-hash": "e56cdb86e7a17351f2414fcb3cf21c0d",
     "packages": [],
     "packages-dev": [
         {
@@ -574,21 +574,29 @@
         },
         {
             "name": "hyphertext/style",
-            "version": "1.0.0",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/HypherText/Style.git",
+                "reference": "b889ba7a25bd24f6180ab04fe28cadc4d6291ca5"
+            },
             "dist": {
-                "type": "path",
-                "url": "../style",
-                "reference": "ca380130d66eae2a0af34dcb66efbbad948e2848"
+                "type": "zip",
+                "url": "https://api.github.com/repos/HypherText/Style/zipball/b889ba7a25bd24f6180ab04fe28cadc4d6291ca5",
+                "reference": "b889ba7a25bd24f6180ab04fe28cadc4d6291ca5",
+                "shasum": ""
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.95"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "HypherText\\Style\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -599,9 +607,11 @@
                 }
             ],
             "description": "Style guide for HypherText",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/HypherText/Style/issues",
+                "source": "https://github.com/HypherText/Style/tree/main"
+            },
+            "time": "2026-07-25T22:47:07+00:00"
         },
         {
             "name": "psr/container",
@@ -2878,12 +2888,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "hyphertext/style": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},
-    "platform-dev": {
-        "composer": "*"
-    },
+    "platform-dev": {},
     "plugin-api-version": "2.9.0"
 }
