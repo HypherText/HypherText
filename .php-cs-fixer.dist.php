@@ -8,6 +8,6 @@ use PhpCsFixer\RuleSet\RuleSets;
 RuleSets::registerCustomRuleSet(new HypherTextPhpCsFixerRuleSet());
 
 return (new Config())
-    ->setRules(["@HypherText" => true])
+    ->setRules(["@HypherText/Style" => true])
     ->setFinder((new Finder())->in(__DIR__))
     ->setCacheFile(__DIR__ . "/.php-cs-fixer.cache");
