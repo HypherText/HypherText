@@ -1,6 +1,6 @@
 {
   "name": "hyphertext/hyphertext",
-  "description": "PHP for the modern man",
+  "description": "PHP for the modern caveman",
   "type": "library",
   "license": "MIT",
   "version": "0.1.0",
@@ -17,6 +17,6 @@
   ],
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.95",
-    "hyphertext/style": "^0.1",
+    "hyphertext/style": "^0.1"
   }
 }
