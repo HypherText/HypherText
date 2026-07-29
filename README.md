@@ -1,1 +1,1 @@
-# HyPHerText - PHP for the modern man
+# HypherText - PHP for the modern (cave)man

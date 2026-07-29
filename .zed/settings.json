@@ -1,12 +1,8 @@
 {
   "languages": {
     "PHP": {
-      "formatter": {
-        "external": {
-          "command": "php-cs-fixer",
-          "arguments": ["fix", "--config=.php-cs-fixer.dist.php"],
-        },
-      },
+      "format_on_save": "on",
+      "formatter": "language_server",
     },
   },
 }

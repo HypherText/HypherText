@@ -1,12 +1,12 @@
-<? declare(strict_types=1);
+<?
+declare(strict_types=1);
 
 namespace HypherText;
 
 class Layout {
     private $file;
 
-    /** @param string $name */
-    public function __construct($name) {
+    public function __construct(string $name) {
         $this->file = Paths::getBase()."/layouts/{$name}.php";
         if (!file_exists($this->file)) {
             throw new \Error("Layout {$name} does not exist at {$this->file}.");
